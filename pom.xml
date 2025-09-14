@@ -274,8 +274,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>19</source>
+                    <target>19</target>
                 </configuration>
             </plugin>
             <!-- 添加 Surefire 插件配置 -->
